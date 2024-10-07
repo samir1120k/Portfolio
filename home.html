@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Satyam Patel - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <!-- Add Font Awesome CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <header id="home">
+        <div class="hero">
+            <img src="profile bgremove.png" alt="Satyam Patel" class="profile-photo">
+            <h1>Satyam Patel</h1>
+            <p id="tagline"></p>
+            <a href="#about" class="scroll-btn">Explore</a>
+        </div>
+    </header>
+
+    <main>
+        <section id="about">
+            <h2>About Me</h2>
+            <p>I'm a B.Tech CSE student specializing in Data Science, passionate about machine learning, AI, and web development. With a keen interest in solving complex problems, I strive to create intelligent solutions that make a difference.</p>
+        </section>
+
+        <section id="skills">
+            <h2>Skills</h2>
+            <div class="skill-container">
+                <div class="skill">
+                    <i class="fab fa-python"></i>
+                    <p>Python</p>
+                    <div class="progress-bar"><div class="progress" style="width: 90%;"></div></div>
+                </div>
+                <div class="skill">
+                    <i class="fab fa-cuttlefish"></i>
+                    <p>C++</p>
+                    <div class="progress-bar"><div class="progress" style="width: 80%;"></div></div>
+                </div>
+                <div class="skill">
+                    <i class="fab fa-r-project"></i>
+                    <p>R</p>
+                    <div class="progress-bar"><div class="progress" style="width: 75%;"></div></div>
+                </div>
+                <!-- Add more skills here -->
+            </div>
+        </section>
+
+        <section id="projects">
+            <h2>Projects</h2>
+            <div class="project-container">
+                <div class="project-card">
+                    <h3>Indian Sign Language to Speech Translation</h3>
+                    <p>A machine learning project that translates Indian Sign Language gestures into speech.</p>
+                </div>
+                <div class="project-card">
+                    <h3>Learnify</h3>
+                    <p>An AI-powered educational platform that personalizes learning experiences.</p>
+                </div>
+                <div class="project-card">
+                    <h3>Titanic Dataset Analysis</h3>
+                    <p>A data science project analyzing survival patterns from the Titanic dataset.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <form id="contact-form" action="https://formspree.io/f/your_formspree_id" method="POST">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+            <div class="social-links">
+                <a href="mailto:your.email@example.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+                <a href="https://www.linkedin.com/in/your-profile" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/your-username" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                <a href="https://auth.geeksforgeeks.org/user/your-gfg-username" target="_blank" aria-label="GeeksforGeeks" class="gfg-link">GfG</a>
+                <a href="https://leetcode.com/your-leetcode-username" target="_blank" aria-label="LeetCode" class="leetcode-link">LC</a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Satyam Patel. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
