@@ -16,7 +16,7 @@ const options = {
     loop: true
 };
 
-const typed = new Typed('#tagline', options);
+const typed = new Typed('#ram', options);
 
 // Parallax scrolling effect
 window.addEventListener('scroll', () => {
